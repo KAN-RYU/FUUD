@@ -53,3 +53,37 @@ a.top_bar:link:active, a.top_bar:visited:active {
 .menu_bar {
     margin: 5%
 }
+
+.menu_list {
+    background-color: rgb(199, 230, 127);
+    padding: 5% 0%;
+    line-height: 150%;
+}
+
+.QR_container {
+    text-align: center;
+}
+
+.QR {
+    width: 100%;
+}
+
+.allergy {
+    background-color: rgb(255, 125, 125);
+}
+
+.bottom_container {
+    margin: 1%;
+    display: flex;
+}
+
+#buy_button {
+    display: inline-block;
+    font-size: 2rem;
+}
+
+#setting_button {
+    margin-left: auto;
+    display: inline-block;
+    font-size: 2rem;
+}
