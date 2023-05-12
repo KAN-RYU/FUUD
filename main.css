@@ -1,0 +1,55 @@
+html {
+    font-size: 3vw;
+}
+
+body {
+    font-family: 'KoPub Dotum';
+    font-size: 2rem;
+}
+
+a.top_bar:link, a.top_bar:visited {
+    color: (internal value);
+    text-decoration: none;
+    cursor: auto;
+    width: 100%;
+    background-color: rgb(199, 230, 127);
+    color: #000;
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: left;
+    /* padding: 0% 100%; */
+    display: flex;
+}
+
+a.top_bar:link:active, a.top_bar:visited:active {
+    color: (internal value);
+}
+
+#top_description, #top_name {
+    display: inline-block;
+}
+
+#top_name {
+    width: 50%;
+}
+
+#top_description {
+    text-align: right;
+    margin: auto;
+    width: 50%;
+    font-size: 2rem;
+}
+
+.center_container {
+    align-content: center;
+}
+
+.menu_container {
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.menu_bar {
+    margin: 5%
+}
