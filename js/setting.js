@@ -34,6 +34,13 @@ function initializeCheckbox() {
     }
 }
 
+function updateCheckbox() {
+    for (let i = 1; i <= 19; i++) {
+        let a = document.getElementById("allergy" + i);
+        a.checked = false;
+    }
+}
+
 function updateAllergy() {
     let tmp = [];
     for (let i = 1; i <= 19; i++) {
@@ -52,7 +59,7 @@ function resetInformation() {
     localStorage.setItem("tickets", "0/0/0/0");
     localStorage.setItem("first", "0");
     updateDropdownName();
-    updateAllergy();
+    updateCheckbox();
 }
 
 updateDropdownName();
