@@ -1,0 +1,32 @@
+html {
+    font-size: 3vw;
+}
+
+body {
+    font-family: 'KoPub Dotum';
+    font-size: 1.5rem;
+}
+
+a.top_bar:link, a.top_bar:visited {
+    color: (internal value);
+    text-decoration: none;
+    cursor: auto;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+a.top_bar:link:active, a.top_bar:visited:active {
+    color: (internal value);
+}
+
+#top_description {
+    text-align: right;
+}
+
+div.allergy-information {
+    font-size: 1rem;
+}
+
+#date {
+    font-size: 2rem;
+}

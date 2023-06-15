@@ -1,31 +1,49 @@
 <!DOCTYPE html>
-<html lang="ko">
-<link rel="stylesheet" href="./main.css">
+<html lang="en">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/font-kopub@1.0/kopubdotum.min.css'>
-
+<link rel='stylesheet' href="./css/main.css">
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>FUUD QR</title>
 </head>
 
 <body>
-    <div class="center_container">
-        <a href="./index.html" class="top_bar">
-            <div id="top_name">FUUD</div>
-        </a>
-    </div>
-    <div class="menu_container">
-        <div class="menu_bar">
-            Lunch / May 8 (Mon)<br>
-            Dormitory Cafeteria<br>
+    <a href="./index.html" class="top_bar">
+        <div class="container-fluid bg-success text-white">
+            <div class="row">
+                <div class="col-4" id="top_name">
+                    FUUD
+                </div>
+            </div>
         </div>
-        <img class="QR" src="./QR.svg" alt="QR">
-    </div>
-    <div class="bottom_container">
+    </a>
 
+    <div class="container px-4 py-3" style="align-items: center;">
+        <div class="row" style="text-align: center;">
+            <div class="col">
+                Lunch / May 8 (Mon)<br>
+                Dormitory Cafeteria<br>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="card border-info" style="text-align: center;">
+                <img class="QR" src="./data/QR.svg" alt="QR">
+            </div>
+        </div>
     </div>
+    <div class="container-fluid py-4">
+        <div class="row justify-content-between">
+                <a href="./index.html" class="btn btn-primary" id="back_button">Back</a>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
-
-
